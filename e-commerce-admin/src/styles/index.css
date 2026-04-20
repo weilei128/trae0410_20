@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.el-menu {
+  border-right: none !important;
+}
+
+.el-aside {
+  transition: width 0.3s;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.table-operations {
+  margin-bottom: 20px;
+}
+
+.status-tag {
+  min-width: 80px;
+  text-align: center;
+}
+
+.w-e-textarea-container {
+  background: #fff;
+}
+
+.w-e-text-container [data-slate-editor] {
+  min-height: 300px;
+}
